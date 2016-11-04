@@ -15,6 +15,7 @@
 		2A2DB8461DCC669D0073558B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2DB8441DCC669D0073558B /* LaunchScreen.storyboard */; };
 		2A2DB8511DCC669D0073558B /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2DB8501DCC669D0073558B /* weiboTests.m */; };
 		2A2DB85C1DCC669D0073558B /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2DB85B1DCC669D0073558B /* weiboUITests.m */; };
+		2A2DB86B1DCC67DF0073558B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2DB86A1DCC67DF0073558B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2A2DB8571DCC669D0073558B /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2DB85B1DCC669D0073558B /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		2A2DB85D1DCC669D0073558B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2DB8691DCC67DF0073558B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2A2DB86A1DCC67DF0073558B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2A2DB83A1DCC669D0073558B /* AppDelegate.m */,
 				2A2DB83C1DCC669D0073558B /* ViewController.h */,
 				2A2DB83D1DCC669D0073558B /* ViewController.m */,
+				2A2DB8691DCC67DF0073558B /* Person.h */,
+				2A2DB86A1DCC67DF0073558B /* Person.m */,
 				2A2DB83F1DCC669D0073558B /* Main.storyboard */,
 				2A2DB8421DCC669D0073558B /* Assets.xcassets */,
 				2A2DB8441DCC669D0073558B /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				2A2DB83E1DCC669D0073558B /* ViewController.m in Sources */,
 				2A2DB83B1DCC669D0073558B /* AppDelegate.m in Sources */,
+				2A2DB86B1DCC67DF0073558B /* Person.m in Sources */,
 				2A2DB8381DCC669D0073558B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
